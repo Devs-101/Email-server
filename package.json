@@ -1,0 +1,25 @@
+{
+  "name": "mailgun-nodemailer-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node mailer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Raziel Carvajal <razielco@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "handlebars": "^4.7.6",
+    "mongodb": "^3.6.0",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.11",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "nodemailer-mailgun-transport": "^2.0.0"
+  }
+}
