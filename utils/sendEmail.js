@@ -24,19 +24,13 @@ const sendEmail = async (event) => {
         fullUrl: event.fullUrl
       }
     };
-    /*
     sgMail.send(msg, (error, result) => {
       if (error)
-        console.log('e:::', error.response.body);
-        /*
         return {
           success: false,
-          error: error.response.body
+          error: error
         }
-
-      console.log('r:::', result);
     })
-    */
   })
 
     return true
