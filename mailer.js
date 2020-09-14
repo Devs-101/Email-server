@@ -11,10 +11,10 @@ process.on('uncaughtException', function(err) {
   Sentry.captureException(err);
 });
 
+const GetData = getData()
 cron.schedule(TIME_CRON_JOB, async function() {
 //cron.schedule("59 23 * * *", async function() {
   console.log("---------------------");
   console.log("Running Cron Job");
-  const GetData = getData()
   const info = GetData.fullData()
 });
